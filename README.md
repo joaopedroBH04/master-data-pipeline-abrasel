@@ -32,3 +32,12 @@ O maior desafio técnico do projeto: cruzar milhares de arquivos descentralizado
 * **Processamento:** Chunking (Lotes), Expressões Regulares (re), Glob
 
 
+---
+
+## 👨‍💻 Meu Papel e Aprendizados
+Como responsável pelo desenvolvimento deste pipeline, este projeto me proporcionou um aprofundamento prático em desafios reais de Big Data e Qualidade de Dados. Os principais aprendizados incluíram:
+* **Mentalidade de Arquitetura:** Mudar o foco de "fazer o código funcionar" para "fazer o código escalar", aplicando processamento iterativo (*Chunking* e *Blocking*) para contornar limitações de hardware local.
+* **Resolução Lógica sem Chaves Primárias:** Lidar com a sujeira inerente aos dados do mundo real (informalidade, abreviações, nomes fantasia divergentes) e construir um motor de *Fuzzy Matching* do zero.
+* **Visão Crítica de QA (Quality Assurance):** Entender que o trabalho da Engenharia de Dados não é apenas cruzar tabelas, mas garantir a integridade do *Data Lake*, criando travas de segurança mecânicas (como a validação dupla de endereço) para blindar o ambiente contra Falsos Positivos oriundos de raspagens imperfeitas.
+
+
