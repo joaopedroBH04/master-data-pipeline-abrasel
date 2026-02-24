@@ -1,0 +1,10 @@
+# Ignora a pasta inteira de dados pesados e milhares de CSVs
+dados_oficiais/
+
+# Ignora qualquer arquivo CSV ou Excel solto por acidente
+*.csv
+*.xlsx
+
+# Ignora pastas temporárias do Python
+__pycache__/
+.vscode/
